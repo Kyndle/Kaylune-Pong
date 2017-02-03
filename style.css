@@ -1,0 +1,19 @@
+
+body {
+	background-color: #CCC;
+	margin: 20px;
+}
+
+#canvasdiv {
+	background-color: #AAA; 
+	width: 800px; 
+	height: 500px; 
+	margin: 0 auto; 
+	padding-top: 20px
+}
+
+#gameCanvas {
+	border: 1px solid red; 
+	margin:auto; 
+	display: block;
+}

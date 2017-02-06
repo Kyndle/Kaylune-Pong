@@ -1,4 +1,4 @@
-# Kaylune-Battle-System
+# Kaylune-Pong
 
 A Pong-Like game to be played by users of Kaylune.com in order to win Kwin. 
 

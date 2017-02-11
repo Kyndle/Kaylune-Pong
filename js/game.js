@@ -135,35 +135,50 @@ function handleFileLoad(event) {
 	//Assign each loaded image to a variable when loaded
 	switch(event.item.id) {
 		case "background":
-			background = new createjs.Bitmap(event.result);		
+			background = new createjs.Bitmap(event.result);	
+			break;
 		case "title":
 			title = new createjs.Bitmap(event.result);
+			break;
 		case "menubackground":
 			menubackground = new createjs.Bitmap(event.result);
+			break;
 		case "playbutton":
 			playbutton = new createjs.Bitmap(event.result);		
+			break;
 		case "easybutton":
 			easybutton = new createjs.Bitmap(event.result);		
+			break;
 		case "mediumbutton":
 			mediumbutton = new createjs.Bitmap(event.result);		
+			break;
 		case "hardbutton":
 			hardbutton = new createjs.Bitmap(event.result);
+			break;
 		case "playerpaddle":
-			playerpaddle = new createjs.Bitmap(event.result);		
+			playerpaddle = new createjs.Bitmap(event.result);	
+			break;			
 		case "easypaddle":
-			easypaddle = new createjs.Bitmap(event.result);		
+			easypaddle = new createjs.Bitmap(event.result);	
+			break;
 		case "mediumpaddle":
-			mediumpaddle = new createjs.Bitmap(event.result);		
+			mediumpaddle = new createjs.Bitmap(event.result);	
+			break;			
 		case "hardpaddle":
 			hardpaddle = new createjs.Bitmap(event.result);
+			break;
 		case "cpupaddle":
 			cpupaddle = new createjs.Bitmap(event.result);
+			break;
 		case "ball":
 			ball = new createjs.Bitmap(event.result);
+			break;
 		case "win":
 			win = new createjs.Bitmap(event.result);
+			break;
 		case "lose":
 			lose = new createjs.Bitmap(event.result);
+			break;
 	}
 
 }

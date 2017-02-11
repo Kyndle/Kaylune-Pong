@@ -77,9 +77,12 @@ function showLoadingScreen(bool) {
 		text.x = canvasw/2 - 50;
 		text.y = canvash/2 - 20;
 		
+		loadingscreen.addChild(rect, text);		
+		stage.addChild(loadingscreen);
 	} else {
-		loadingscreen.removeAllChildren();
+		stage.removeChild(loadingscreen);
 	}
+	stage.update();
 }
 
 //BEGIN PRELOADER

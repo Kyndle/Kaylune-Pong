@@ -222,7 +222,6 @@ function addTitleView() {
 	stage.update();
 	console.log("Loaded Main Menu.");
 	
-	//playbutton.addEventListener("click", function() { tweenTitleView() });
 	playbutton.addEventListener("click", function() { 
 		playbutton.visible 		= false;
 		easybutton.visible 		= true;
